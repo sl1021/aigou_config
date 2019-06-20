@@ -6,7 +6,7 @@ spring:
 
 ---
 spring:
-  profiles:
+  profiles: dev
   application:
     name: AIGOU_PLAT
 eureka:
@@ -20,7 +20,7 @@ server:
 
 ---
 spring:
-  profiles:
+  profiles: test
   application:
     name: AIGOU_PLAT_TEST
 eureka:
